@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 1</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
-<body>
-    <!-- <h1>Backstory</h1> -->
-    <img src=../main_story_assets/day1/scene_14.webp alt="Neeti on her first day of school" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>
-        Today’s the first day of high school. Even though you learned to speak English at home, as soon as you opened your mouth, your accent was made fun of by all of your classmates. They called you ‘weird’ ‘different’ and told you to ‘go back to china’. You feel mad, angry, hurt, and ashamed.
-        
-        <br><br>
 
-        Do you:
-    </p>
-    <a href="./day1_1a.html" style="color: black">Run home and cry</a>
-    <br><br>
-    <a href="./day1_2.html" style="color: black">Stay at school</a>
+<body>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+                <img src=../main_story_assets/day1/scene_14.webp alt="Neeti on her first day of school">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>Today’s the first day of high school. Even though you learned to speak English at home, as soon as you opened your
+                mouth, your accent was made fun of by all of your classmates. They called you ‘weird’ ‘different’ and told you to ‘go
+                back to china’. You feel mad, angry, hurt, and ashamed. </p>
+                <p>Do you:</p>
+                <a href="./day1_1.html" style="color: black">Option 1: Run home and cry</a>
+                <a href="./day1_2.html" style="color: black">Option 2: Stay at school</a>
+            </div>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>

@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 1</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
+
 <body>
-    <!-- <h1>Backstory</h1> -->
-    <img src=../main_story_assets/day1/scene_16.webp alt="Neeti on her first day of school" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>
-        Someone taps you on the shoulder-it is the school counselor, Dr. Kamal Kapadia.  
-    </p>
-    <a href="./day1_4.html" style="color: black">Next</a>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+                <img src=../main_story_assets/day1/scene_16.webp alt="Neeti on her first day of school">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>Someone taps you on the shoulder-it is the school counselor, Dr. Kamal Kapadia.</p>
+            </div>
+            <form action="./day1_4.html">
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>
