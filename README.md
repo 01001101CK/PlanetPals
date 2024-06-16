@@ -1,10 +1,12 @@
 
 # PlanetPals
 ![PlanetPals_logo](https://github.com/01001101CK/PlanetPals/assets/112290188/14f011bc-71fe-44b0-bcf2-b8abf21ce4db)
+# Demo 
+[Link](https://drive.google.com/file/d/1aUt1cIs3enHO0-_YcLFU8zGVpiPwwe8c/view?usp=share_link)
 
 # Concept and objectives
 
-Safe space for children and youth ages 8 and up to learn how to navigate challenges rooted in climate change with empathy where they come out the other side with a new found sense of Empowerment and Hope. 
+Safe space for youth ages 13 and up to learn how to navigate challenges rooted in climate change with empathy where they come out the other side with a new found sense of Empowerment and Hope. 
 
 Player embarks on a hero’s journey through various stories from diverse walks of life with visceral emotional storytelling. Walking a mile in the character’s shoes of upheaval, emotional turmoil, gratitude, and empowerment. 
 
