@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 2</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
+
 <body>
-    <!-- <h1>Backstory</h1> -->
-    <img src=../main_story_assets/day_2/scene_29.webp alt="Crying after telling her story" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>
-        Wasting water is unacceptable as it is reserved for people to live. When you finish your story, you stop breathing, staring into so many faces staring back at you. “What have I done” - you start to freak out “they will laugh at my accent”. A moment passes, an applause breaks out, many kids come up to hug you, and you think “Wow, did I just speak in front of EVERYBODY??”
-    <p>
-    <a href="./finish.html" style="color: black">Next</a>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+                <img src=../main_story_assets/day_2/scene_29.webp alt="Crying after telling her story">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>Wasting water is unacceptable as it is reserved for people to live. When you finish your story, you stop breathing,
+                staring into so many faces staring back at you. “What have I done” - you start to freak out “they will laugh at my
+                accent”. A moment passes, an applause breaks out, many kids come up to hug you, and you think “Wow, did I just speak in
+                front of EVERYBODY??”
+                </p>
+            </div>
+            <form action="./finish.html">
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>

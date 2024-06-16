@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 2</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
+
 <body>
-    <!-- <h1>Backstory</h1> -->
-    <img src=../main_story_assets/day_2/scene_25.webp alt="Neeti in the principal's office" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>
-        The PE teacher appears and breaks up the fight and sends you to the Principal Remo’s office for bad behavior. You are angry and upset, knowing you didn’t do anything wrong.
-
-        <br>
-        <br>
-
-        Your councilor Kamal appears and takes you into her office. She asks you what happened.
-    </p>
-    <a href="./day2_7.html" style="color: black">Next</a>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+                <img src=../main_story_assets/day_2/scene_25.webp alt="Neeti in the principal's office">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>The PE teacher appears and breaks up the fight and sends you to the Principal Remo’s office for bad behavior. You are
+                angry and upset, knowing you didn’t do anything wrong.
+                
+                <br>
+                <br>
+                
+                Your councilor Kamal appears and takes you into her office. She asks you what happened.
+                </p>
+            </div>
+            <form action="./day2_7.html">
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>
