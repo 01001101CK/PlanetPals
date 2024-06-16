@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A New World</title>
+    <title>Intro</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
+
 <body>
-    <h1>School</h1>
-    <img src=../main_story_assets/intro/scene_2.webp alt="Neeti on her first day of school" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>You left your country at the end of July 2024 after your family experienced years of droughts and flooding from climate change </p>
-    <a href="./intro_3.html" style="color: black">Next</a>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+            <img src=../main_story_assets/intro/scene_2.webp alt="Neeti on her first day of school">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>You left your country at the end of July 2024 after your family experienced years of droughts and flooding from
+                    climate change. </p>
+            </div>
+            <form action="./intro_3.html">
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>

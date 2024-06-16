@@ -1,20 +1,31 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A New World</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
+
 <body>
-    <h1>Backstory</h1>
-    <img src=../main_story_assets/intro/scene_6.webp alt="Neeti on her first day of school" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>
-        Your parents were determined to keep a sense of normalcy even though Sri Lanka has had the worst climate decade in its history. Coming from a farming, collectivist, patriarchal society and as the youngest of 3, you had an easy childhood with your older brothers groomed and expected to take over the family ceylon tea business, the premier export crop.
-    </p>
-    <a href="./intro_7.html" style="color: black">Next</a>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+                <img src=../main_story_assets/intro/scene_6.webp alt="Neeti on her first day of school">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>Your parents were determined to keep a sense of normalcy even though Sri Lanka has had the worst climate decade in its
+                history. Coming from a farming, collectivist, patriarchal society and as the youngest of 3, you had an easy childhood
+                with your older brothers groomed and expected to take over the family ceylon tea business, the premier export crop. </p>
+            </div>
+            <form action="./intro_7.html">
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>

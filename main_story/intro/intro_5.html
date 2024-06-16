@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A New World</title>
+    <link rel="stylesheet" href="/PlanetPals/main_story/style.css">
 </head>
+
 <body>
-    <h1>Backstory</h1>
-    <img src=../main_story_assets/intro/scene_5.webp alt="Neeti on her first day of school" width="1000">
-    <!--<audio controls>
-        <source src=template_assets/sri_lanka_anthem.mp3 type="audio/mp3">
-    </audio>
--->
-    <p>
-        You feel a pang of nostalgia as you glance out the window into the quiet suburb. You have not seen streets so wide and so clean and houses so big, and everyone seems to be in a hurry compared with the slow, comforting life you had known in Sri Lanka. Even though the last few years have been tough, you miss the evenings spent with your family, sipping chai, sharing dinner, and telling jokes. 
-    </p>
-    <a href="./intro_6.html" style="color: black">Next</a>
+    <div id="book">
+        <div class="page" id="page1">
+            <div class="content">
+                <img src=../main_story_assets/intro/scene_5.webp alt="Neeti on her first day of school">
+                <!-- <audio controls>
+                    <source src="template_assets/sri_lanka_anthem.mp3" type="audio/mp3">
+                </audio> -->
+                <p>You feel a pang of nostalgia as you glance out the window into the quiet suburb. You have not seen streets so wide and
+                so clean and houses so big, and everyone seems to be in a hurry compared with the slow, comforting life you had known in
+                Sri Lanka. Even though the last few years have been tough, you miss the evenings spent with your family, sipping chai,
+                sharing dinner, and telling jokes. </p>
+            </div>
+            <form action="./intro_6.html">
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="/PlanetPals/main_story/index.js"></script>
 </body>
+
 </html>
